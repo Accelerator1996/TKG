@@ -144,9 +144,9 @@ my %base = (
 		shaalg => '256'
 	},
 	jython => {
-		url => 'https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.2/jython-standalone-2.7.2.jar',
-		fname => 'jython-standalone.jar',
-		sha1 => '15592c29538abd36d15570eda9fa055ed1a618ba'
+		url => 'https://archiva-maven-storage-prod.oss-cn-beijing.aliyuncs.com/repository/gradle-plugin/org/python/jython-standalone/2.7.2/jython-standalone-2.7.2.jar',
+		fname => 'jython-standalone.jar'
+		#sha1 => '15592c29538abd36d15570eda9fa055ed1a618ba'
 	});
 
 my @dependencies = split(',', $dependencyList);
