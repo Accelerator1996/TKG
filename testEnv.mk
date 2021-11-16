@@ -29,4 +29,3 @@ endif
 
 export TR_silentEnv=1
 export TR_enableBreakOnDFSet=1
-export PATH=/cygdrive/c/apache-maven-3.8.3/bin:${PATH}
